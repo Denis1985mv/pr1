@@ -1,0 +1,74 @@
+
+.logoimg{
+ margin: 24.9px 0px 24.9px 56px;
+  
+}
+
+body, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+ width: 380px;
+ padding: 31.50px 0px 31.50px 0px;
+}
+
+.navone {
+  width:100%;
+
+  height:40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1px, 20%));
+}
+
+.navone > li {
+
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+a{
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+  color: black;
+}
+
+a:hover {
+  color:#dd1506;/*добавляем эффект при наведении*/
+}
+.centerone{
+margin: 0px auto 0px;
+width: 1200px;
+}
+
+.container {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: [start] 372px [line2] 614px [line3] 71px [line4] 40px [end];
+}
+
+.language{
+  margin: 29.5px 0px 0px 0px;
+  width: 53px;
+  height: 24px;
+}
+
+.bootun{
+  margin: 22px 0px 0px 0px;
+  height: 35px;
+  width: 89px;
+}
+
+a.knpka {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(53 99 233); /* фон кнопки */
+  padding: 9px 25px; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  border-radius: 5px;
+}
+a.knpka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.knpka:
