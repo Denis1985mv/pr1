@@ -19,7 +19,7 @@ nav{
     width: 100%;
     height: 40px;
     display: grid;
-    grid-template-columns: [start] 60.85px [line1] 100.85px [line2] 68px [line3] 110px [line4] 0px [end];
+    grid-template-columns: [start] 78px [line1] 93px [line2] 80px [line3] 95px [line4] 90px [end];
     justify-content: start;
     align-content: space-between;
     align-items: center;
