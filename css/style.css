@@ -1,4 +1,3 @@
-
 /* CSS */
 /* :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
@@ -390,4 +389,151 @@ padding-top: 195.5px;
 }
 .indent{
 	margin: 10px 0px 0px 10px;
+}
+
+
+
+.clients, .users, .usersInfo, .stars, .callToAction{
+    display: flex;
+}
+
+.clients{
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 1440px;
+    margin: auto;
+}
+
+.text2{
+    color: dimgrey;
+    width: 398px;
+    text-align: center;
+    margin: auto;
+}
+
+.text1{
+    width: 952px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.users{
+    width: 1094px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.usersInfo{
+    width: 1054px;
+    margin: 20px;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 42px;
+}
+
+.user{
+    width: 414px;
+    height: 323px;
+    margin-left: 42px;
+}
+
+.firstStar{
+    width: 20px;
+    height: 19.02px;
+    margin: auto;
+    margin-right: 6px;
+}
+
+.star{
+    width: 20px;
+    height: 19.02px;
+    margin: auto;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.lastStar{
+    width: 20px;
+    height: 19.02px;
+    margin: auto;
+    margin-left: 6px;
+}
+
+.comment{
+    height: 128px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    margin-top: 27px;
+    margin-left: 187px;
+    margin-right: 187px;
+}
+
+.username{
+    color: dimgray;
+    margin-top: 8px;
+    margin-left: 152px;
+    margin-right: 152px;
+}
+
+.callToAction{
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 1440px;
+    margin: auto;
+}
+
+.information{
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.callToActionText{
+    margin-top: 60px;
+    margin-left: 124px;
+    margin-right: 124px;
+}
+
+.actionText1{
+    color: dimgrey;
+    text-align: center;
+    margin: auto;
+    margin-left: 342px;
+    margin-right: 342px;
+}
+
+.actionText2{
+    width: 952px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.actionButton{
+    width: 230px;
+    margin-top: 48px;
+    margin-left: 485px;
+    margin-bottom: 140px;
 }
