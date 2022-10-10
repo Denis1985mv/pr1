@@ -85,7 +85,7 @@ a.button {
     text-decoration: none; /* убирать подчёркивание у ссылок */
     user-select: none; /* убирать выделение текста */
     background: rgb(53 99 233); /* фон кнопки */
-    padding: 7px 19px 8px 18px; /* отступ от текста */
+    padding: 8px 22px 8px 22px; /* отступ от текста */
     outline: none; /* убирать контур в Mozilla */
     border-radius: 5px;
     width: 50px;
