@@ -5,7 +5,7 @@
 } */
 
 .logoimg{
-    margin: 24.9px 0px 24.9px 0px;
+    margin: 24.9px 0px 24.9px 56px;
 
 }
 
@@ -71,7 +71,7 @@ a:hover {
 .container {
     /* border: 1px solid black; */
     display: grid;
-    grid-template-columns: [start] 372px [line2] 665px [line3] 71px [line4] 40px [end];
+    grid-template-columns: [start] 372px [line2] 614px [line3] 71px [line4] 40px [end];
 }
 
 .language{
@@ -85,7 +85,7 @@ a.button {
     text-decoration: none; /* убирать подчёркивание у ссылок */
     user-select: none; /* убирать выделение текста */
     background: rgb(53 99 233); /* фон кнопки */
-    padding: 7px 19px 8px 18px; /* отступ от текста */
+    padding: 11px 19px 8px 18px; /* отступ от текста */
     outline: none; /* убирать контур в Mozilla */
     border-radius: 5px;
     width: 50px;
@@ -406,6 +406,11 @@ padding-top: 195.5px;
 }
 
 .text2{
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24.2px;
     color: dimgrey;
     width: 398px;
     text-align: center;
@@ -413,6 +418,11 @@ padding-top: 195.5px;
 }
 
 .text1{
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58.09px;
     width: 952px;
     margin-top: 80px;
     text-align: center;
@@ -473,6 +483,11 @@ padding-top: 195.5px;
 }
 
 .comment{
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
     height: 128px;
     margin-left: 10px;
     margin-right: 10px;
@@ -491,7 +506,13 @@ padding-top: 195.5px;
 }
 
 .username{
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16.94px;
     color: dimgray;
+    text-align: center;
     margin-top: 8px;
     margin-left: 152px;
     margin-right: 152px;
@@ -518,6 +539,11 @@ padding-top: 195.5px;
 }
 
 .actionText1{
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24.2px;
     color: dimgrey;
     text-align: center;
     margin: auto;
@@ -526,6 +552,11 @@ padding-top: 195.5px;
 }
 
 .actionText2{
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58.09px;
     width: 952px;
     text-align: center;
     margin-top: 24px;
