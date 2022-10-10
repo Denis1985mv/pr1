@@ -5,7 +5,7 @@
 } */
 
 .logoimg{
-    margin: 24.9px 0px 24.9px 56px;
+    margin: 24.9px 0px 24.9px 0px;
 
 }
 
@@ -71,7 +71,7 @@ a:hover {
 .container {
     /* border: 1px solid black; */
     display: grid;
-    grid-template-columns: [start] 372px [line2] 614px [line3] 71px [line4] 40px [end];
+    grid-template-columns: [start] 372px [line2] 665px [line3] 71px [line4] 40px [end];
 }
 
 .language{
